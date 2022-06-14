@@ -123,7 +123,7 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Generic
-    version:             2021.2 LTS
+    version:             2022.1 LTS
     shortVersion:        2022.1
     versionedName:       19Doors GNU/Linux 2022.1 LTS "19Doors"
     shortVersionedName:  19DoorsOS 2022.1
@@ -180,10 +180,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   SidebarBackground:        "#292F34"
-   SidebarText:              "#FFFFFF"
-   SidebarTextCurrent:       "#292F34"
-   SidebarBackgroundCurrent: "#D35400"
+   sidebarBackground:        "#292F34"
+   sidebarText:              "#FFFFFF"
+   sidebarTextCurrent:       "#292F34"
+   sidebarBackgroundCurrent: "#D35400"
 
 ### SLIDESHOW
 #
