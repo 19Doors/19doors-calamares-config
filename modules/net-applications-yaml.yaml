@@ -1,0 +1,10 @@
+- name: "Editors"
+  description: "Select Editors"
+  hidden: false
+  selected: false
+  critical: false
+  packages: 
+    - vim
+    - neovim
+    - nano
+    - bluefish
