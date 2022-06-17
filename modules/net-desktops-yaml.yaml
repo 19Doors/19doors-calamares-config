@@ -1,0 +1,12 @@
+- name: "Qtile"
+  description: "Installs Qtile"
+  hidden: false
+  selected: false
+  critical: false
+  packages: 
+    - qtile 
+    - 19doors-qtile-config
+    - termite
+    - ttf-iosevka-nerd
+    - nerd-fonts-mononoki
+    - ttf-font-awesome
