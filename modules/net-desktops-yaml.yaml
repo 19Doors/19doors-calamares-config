@@ -1,14 +1,25 @@
-- name: "Desktops"
-  description: "Installs Desktop"
+- name: "Plasma_KDE"
+  description: "Installs Plasma_KDE"
+  hidden: false
+  selected: true
+  critical: false
+  packages:
+    - plasma
+    - kde-applications
+
+- name: "Xfce4"
+  description: "Install Xfce4"
+  hidden: false 
+  selected: false 
+  critical: false 
+  packages: 
+    - xfce4
+
+- name: "Qtile"
+  description: "Install Qtile"
   hidden: false
   selected: false
   critical: false
   packages:
-    - xfce4
-    - plasma
-    - qtile 
-    - 19doors-qtile-config
+    - qtile
     - termite
-    - ttf-iosevka-nerd
-    - nerd-fonts-mononoki
-    - ttf-font-awesome

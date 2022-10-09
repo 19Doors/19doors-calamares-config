@@ -1,10 +1,17 @@
-- name: "Editors"
-  description: "Select Editors"
-  hidden: false
+- name: "Virtual Box(Linux-Kernel)"
+  description: "Installs Virtual Box"
+  hidden: false 
   selected: false
-  critical: false
-  packages: 
-    - vim
-    - neovim
-    - nano
-    - bluefish
+  critical: false 
+  packages:
+    - virtualbox
+    - virtualbox-host-modules-arch
+
+- name: "Virtual Box(Other-Kernels)"
+  description: "Installs Virtual Box"
+  hidden: false 
+  selected: false
+  critical: false 
+  packages:
+    - virtualbox
+    - virtualbox-host-dkms

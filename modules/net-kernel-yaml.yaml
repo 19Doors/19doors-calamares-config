@@ -1,0 +1,31 @@
+- name: "Linux Kernel"
+  description: "Installs Linux Kernel"
+  hidden: false 
+  selected: true
+  critical: false 
+  packages:
+    - linux 
+
+- name: "Linux Hardened Kernel"
+  description: "Installs Linux Hardened Kernel"
+  hidden: false 
+  selected: false
+  critical: false 
+  packages:
+    - linux-hardened 
+
+- name: "Linux LTS Kernel"
+  description: "Installs Linux LTS Kernel"
+  hidden: false 
+  selected: false
+  critical: false 
+  packages:
+    - linux-lts 
+
+- name: "Linux ZEN Kernel"
+  description: "Installs Linux ZEN Kernel"
+  hidden: false 
+  selected: false
+  critical: false 
+  packages:
+    - linux-zen 
