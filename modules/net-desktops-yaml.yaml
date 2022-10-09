@@ -1,9 +1,11 @@
-- name: "Qtile"
-  description: "Installs Qtile"
+- name: "Desktops"
+  description: "Installs Desktop"
   hidden: false
   selected: false
   critical: false
-  packages: 
+  packages:
+    - xfce4
+    - plasma
     - qtile 
     - 19doors-qtile-config
     - termite
